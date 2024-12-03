@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       event.preventDefault();
 
       // Retrieve the form data
-      const nationality = document.getElementById('nationality').value;
+      const nationality = document.getElementById('nationality').value.trim();
       const age = document.getElementById('age').value;
       const license = document.getElementById('license').value;
 
